@@ -43,12 +43,14 @@ If you are using Windows, follow these specific steps to avoid permission errors
    ```bash
    python -m venv venv
    .\venv\Scripts\activate
+   ```
 
    **Note for PowerShell users:** If you encounter an execution policy error, run:
+
    ```powershell
    Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
-   
- Then retry the activation command.
+   ```
+   Then retry the activation command.
 
 2. **Continue with Manual Setup:**
    Once your virtual environment is activated, follow steps 1-3 from the general **Manual Setup** section above:
